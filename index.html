@@ -1,158 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="https://kit.fontawesome.com/b0063053f9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mr. Gonzaga</title>
 </head>
 <body>
 
-<!-- Cabeçalho -->
-<header class="bg-dark text-white text-center py-5">
-    <h1>Samuel Gonzaga</h1>
-    <div id="typing-div">
-        <p class="typing">Desenvolvedor Web Back-end | PHP & MySQL</p>
-    </div>
-
-    <div class="mt-3">
-        <a href="https://samuel-gonzaga.github.io/portifolio/public/Samuel-Gonzaga.pdf" class="btn btn-light btn-sm btn-animated"
-           download="Samuel-Gonzaga.pdf" type="application/pdf">
-            <i class="fa-solid fa-download"></i> Baixar Currículo
-        </a>
-    </div>
-</header>
-
-<!-- Sobre Mim -->
-<section id="sobre-mim" class="bg-white py-5">
-    <div class="container text-center">
-        <h2 class="mb-4">Sobre Mim</h2>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <p class="fs-6">
-                    Olá! Meu nome é <strong class="fs-6">Samuel Gonzaga</strong>, sou um desenvolvedor back-end apaixonado por tecnologia.
-                    Meu foco atual é PHP, mas também estou sempre explorando novas tecnologias para atender as necessidades do mercado.
-                </p>
-                <p class="fs-6">
-                    Recentemente eu terminei o curso <strong class="fs-6">Técnico em Desenvolvimento de Sistemas</strong> e estou buscando oportunidades para trabalhar na área.
-                    Meu objetivo é construir aplicações escaláveis e bem estruturadas, sempre focado em boas práticas e segurança.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Seção Projetos -->
-<section id="projetos" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Projetos</h2>
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center gap-5">
-                        <div class="card shadow-lg" style="width: 18rem;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Nosso Tempo</h5>
-                                <p class="card-text">Aplicativo criado em forma de presente para minha namorada</p>
-                                <a href="https://github.com/samuel-gonzaga/Nosso-Tempo" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center gap-5">
-                        <!-- Aqui começa os cards -->
-                        <div class="card shadow-lg" style="width: 18rem;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">CRUD Laravel</h5>
-                                <p class="card-text">Sistema desenvolvido em Laravel para gerenciamento de usuários.</p>
-                                <a href="https://github.com/samuel-gonzaga/laravel-crud" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                            </div>
-                        </div>
-
-                        <div class="card shadow-lg" style="width: 18rem;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Sistema de Cadastro/Login</h5>
-                                <p class="card-text">Autenticação segura com PHP e MySQL.</p>
-                                <a href="https://github.com/samuel-gonzaga/login-register" class="btn btn-primary">Ver no GitHub</a>
-                                <a href="http://login-register.free.nf/" class="btn btn-outline-primary">Acessar site</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center gap-5">
-                        <div class="card shadow-lg" style="width: 18rem;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Gerenciamento de reservas</h5>
-                                <p class="card-text">Software Web e Desktop com Python. Desenvolvido em equipe</p>
-                                <a href="https://github.com/Senac-SOR-ADS/Mapa-de-Sala" class="btn btn-primary">Ver no GitHub</a>
-                            </div>
-                        </div>
-                        <div class="card shadow-lg" style="width: 18rem;">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">The Crows</h5>
-                                <p class="card-text">Plataforma Gameficada aplicada na edição de 2024 do evento GeekMundi no Senac Sorocaba</p>
-                                <a href="https://www.youtube.com/watch?v=maNfOEHWIL0" class="btn btn-outline-primary">YouTube</a>
-                            </div>
-                        </div>
+    <section class="hero is-white has-text-centered">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 id="title">Backend Developer Python</h1>
+                        <h2 id="subtitle">Eu transformo necessidades em soluções, utilizando código para resolver problemas</h2>
+                        <img class="avatar" src="https://mattfarley.ca/img/mf-avatar.svg" alt="">
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
-    </div>
-</section>
+        <div class="hero-foot">
+            <div class="container">
+                <img class="is-bottom" src="https://mattfarley.ca/img/hero-devices.svg" alt="" >
+            </div>
+        </div>        
+    </section>
 
-<!-- Seção Habilidades -->
-<section id="habilidades" class="bg-light py-5">
-    <div class="container text-center">
-        <h2 class="mb-4">Habilidades</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">PHP</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">Laravel</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">JavaScript</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">React Native</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">Python</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">SQL</div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="p-3 bg-white shadow-sm rounded">Firebase</div>
+    <section class="section is-purple">
+        <div class="container">
+            <div class="columns has-text-centered">
+                <h1 id="name">Oi, me chamo Samuel Gonzaga</h1>
+                <h2 id="resume">Desenvolvedor backend formado em Técnico em Desenvolvimento de Sistemas, com foco em Python. Crio <span style="font-weight: bold;">APIs</span>, <span style="font-weight: bold;">sistemas web e desktop</span> com frameworks <span style="font-weight: bold;">modernos</span>. Estou no início da carreira, com uma base sólida em técnicas e soft skills. Atualmente, me aperfeiçoo em <span style="font-weight: bold;">automação, web scraping e soluções inteligentes</span> para projetos freelance, com o objetivo de atuar futuramente como analista de dados.</h2>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Seção Contato -->
-<section id="contato" class="py-5 text-center">
-    <div class="container">
-        <h2 class="mb-4">Contato</h2>
-        <p class="lead">Entre em contato para oportunidades de desenvolvimento</p>
-        <a href="mailto:samuel.gonzaga.dev@gmail.com" class="btn btn-dark">Enviar E-mail</a>
-        <a href="https://www.linkedin.com/in/samuel-henricky/" class="btn btn-dark">LinkedIn</a>
-    </div>
-</section>
+    <section class="cards-container">
+        <div class="card">
+          <div class="card-icon"></div>
+          <h3>Em Desenvolvimento</h3>
+          <p>Estou focando meu crescimento técnico em especialidades que impulsionam automações e projetos freelance.</p>
+          <strong>Tecnologias que estou aprofundando:</strong>
+          <ul>
+            <li>Web Scraping, Python para Automação, Análise de Dados Iniciais</li>
+          </ul>
+          <strong>Objetivo de Curto Prazo</strong>
+          <ul>
+            <li>Aprimorar minhas habilidades práticas e expandir meu portfólio de projetos entregues.</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon"></div>
+          <h3>Backend Developer</h3>
+          <p>Eu gosto de construir aplicações focadas em eficiência e organização do código.</p>
+          <strong>Linguagens que eu domino</strong>
+          <ul>
+            <li>Python, PHP</li>
+        </ul>
+          <strong>Frameworks e Ferramentas</strong>
+          <ul>
+            <li>Flask</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Firebase</li>
+            <li>Git</li>
+        </ul>
+        </div>
+    
+        <div class="card">
+          <div class="card-icon"></div>
+          <h3>Soft Skills</h3>
+          <p>Acredito que a comunicação clara e o comprometimento são fundamentais para o sucesso em qualquer time ou projeto.</p>
+          <strong>Destaques</strong>
+          <ul>
+            <li>Organização</li>
+            <li>Foco em Resultados</li>
+            <li>Facilidade em Aprender</li>
+            <li>Adaptabilidade</li>
+          </ul>
+        </div>
+      </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <section class="projects-section">
+        <div class="container">
+          <h1 class="projects-title">Principais Projetos</h1>
+          <div class="projects-grid">
+            <div class="project-card">Projeto 1</div>
+            <div class="project-card">Projeto 2</div>
+            <div class="project-card">Projeto 3</div>
+            <div class="project-card">Projeto 4</div>
+            <div class="project-card">Projeto 5</div>
+            <div class="project-card">Projeto 6</div>
+          </div>
+        </div>
+      </section>
 </body>
 </html>
