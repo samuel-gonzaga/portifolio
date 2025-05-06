@@ -145,12 +145,17 @@ p, li {
         flex: 1;
         min-width: 280px;
     }
-    & .card-icon {
-        width: 50px;
-        height: 50px;
+    & .card-bg {
         background-color: #5ce0c3;
         border-radius: 50%;
-        margin: 0 auto 15px;
+        width: 50px;
+        height: 50px;
+    }
+    & .card-icon {
+        display: flex;
+        width: 55px;
+        height: 55px;
+        margin: -10px -10px auto 10px;
     }
     & .card h3 {
         font-weight: 600;
