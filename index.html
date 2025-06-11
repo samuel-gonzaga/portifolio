@@ -1,115 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Mr. Gonzaga</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Gonzaga</title>
+    <meta name="description" content="Portifólio online" />
+    <meta name="author" content="Lovable" />
 
-    <section class="hero is-white has-text-centered">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <h1 id="title">Backend Developer Python</h1>
-                        <h2 id="subtitle">Eu transformo necessidades em soluções, utilizando código para resolver problemas</h2>
-                        <img class="avatar" src="https://avatars.githubusercontent.com/u/191996810?v=4" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-foot">
-            <div class="container">
-                <img class="is-bottom" src="https://mattfarley.ca/img/hero-devices.svg" alt="" >
-            </div>
-        </div>        
-    </section>
+    <!-- Favicon Python outline -->
+    <link rel="icon" type="image/svg+xml" href="src/images/python.png" />
 
-    <section class="section is-purple">
-        <div class="container">
-            <div class="columns has-text-centered">
-                <h1 id="name">Oi, me chamo Samuel Gonzaga</h1>
-                <h2 id="resume">Desenvolvedor backend formado em Técnico em Desenvolvimento de Sistemas, com foco em Python. Crio <span style="font-weight: bold;">APIs</span>, <span style="font-weight: bold;">sistemas web e desktop</span> com frameworks <span style="font-weight: bold;">modernos</span>. Estou no início da carreira, com uma base sólida em técnicas e soft skills. Atualmente, me aperfeiçoo em <span style="font-weight: bold;">automação, web scraping e soluções inteligentes</span> para projetos freelance, com o objetivo de atuar futuramente como analista de dados.</h2>
-            </div>
-        </div>
-    </section>
+    <meta property="og:title" content="Portifólio" />
+    <meta property="og:description" content="Portifólio online" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <section class="cards-container">
-        <div class="card">
-          <div class="card-bg"><img class="card-icon" src="img/graph.png" alt=""></div>
-          <h3>Em Desenvolvimento</h3>
-          <p>Estou focando meu crescimento técnico em especialidades que impulsionam automações e projetos freelance.</p>
-          <strong>Tecnologias que estou aprofundando:</strong>
-          <ul>
-            <li>Web Scraping, Python para Automação, Análise de Dados Iniciais</li>
-          </ul>
-          <strong>Objetivo de Curto Prazo</strong>
-          <ul>
-            <li>Aprimorar minhas habilidades práticas e expandir meu portfólio de projetos entregues.</li>
-          </ul>
-        </div>
-        
-        <div class="card">
-          <div class="card-bg"><img class="card-icon" src="img/python-icon.webp" alt=""></div>
-          <h3>Backend Developer</h3>
-          <p>Eu gosto de construir aplicações focadas em eficiência e organização do código.</p>
-          <strong>Linguagens que eu domino</strong>
-          <ul>
-            <li>Python, PHP</li>
-        </ul>
-          <strong>Frameworks e Ferramentas</strong>
-          <ul>
-            <li>Flask</li>
-            <li>PostgreSQL</li>
-            <li>MySQL</li>
-            <li>Firebase</li>
-            <li>Git</li>
-        </ul>
-        </div>
-    
-        <div class="card">
-          <div class="card-bg"><img class="card-icon" src="img/communication.png" alt=""></div>
-          <h3>Soft Skills</h3>
-          <p>Acredito que a comunicação clara e o comprometimento são fundamentais para o sucesso em qualquer time ou projeto.</p>
-          <strong>Destaques</strong>
-          <ul>
-            <li>Organização</li>
-            <li>Foco em Resultados</li>
-            <li>Facilidade em Aprender</li>
-            <li>Adaptabilidade</li>
-          </ul>
-        </div>
-      </section>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-      <section class="projects-section">
-        <div class="container">
-          <h1 class="projects-title">Principais Projetos</h1>
-          <div class="projects-grid">
-            <a href="https://github.com/samuel-gonzaga/python-planilha-automatica" class="project-card" target="_blank">
-              <img src="img/py_xl_drive.png" alt="Python Excel Drive Project">
-              <div class="github-overlay">
-                <i class="fab fa-github"></i>
-              </div>
-            </a>
-            <a href="https://github.com/samuel-gonzaga/flask-auto-docs" class="project-card" target="_blank">
-              <img src="img/py_word.jpg" alt="Python Docs Project">
-              <div class="github-overlay">
-                <i class="fab fa-github"></i>
-              </div>
-            </a>
-            <a href="https://github.com/samuel-gonzaga/flask-crud" class="project-card" target="_blank">
-              <img src="img/CRUD.jpg" alt="CRUD Project">
-              <div class="github-overlay">
-                <i class="fab fa-github"></i>
-              </div>
-            </a>
-            <!-- Repeat for other project cards -->
-          </div>
-        </div>
-      </section>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
